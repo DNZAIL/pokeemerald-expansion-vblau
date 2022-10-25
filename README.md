@@ -1,7 +1,6 @@
 # Project VBLAU
 
-New project built off the expanded decompilation, [pokeemeral-expansion](https://github.com/rh-hideout/pokeemerald-expansion), with plans for an original region.
-
+New project built off the expanded decompilation, [pokeemerald-expansion](https://github.com/rh-hideout/pokeemerald-expansion), with plans for an original region with integration of open-world-esque mechanics.
 
 # pokeemerald Expansion
 
