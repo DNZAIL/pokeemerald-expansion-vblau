@@ -9,7 +9,7 @@
 #define MAP_PETALBURG_CITY      (0 | (0 << 8))
 #define MAP_SLATEPORT_CITY      (1 | (0 << 8))
 #define MAP_MAUVILLE_CITY       (2 | (0 << 8))
-#define MAP_RUSTBORO_CITY       (3 | (0 << 8))
+#define MAP_MUSEMOTO_CITY       (3 | (0 << 8))
 #define MAP_FORTREE_CITY        (4 | (0 << 8))
 #define MAP_LILYCOVE_CITY       (5 | (0 << 8))
 #define MAP_MOSSDEEP_CITY       (6 | (0 << 8))
