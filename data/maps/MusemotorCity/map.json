@@ -1,7 +1,7 @@
 {
-  "id": "MAP_MUSEMOTO_CITY",
-  "name": "MusemotoCity",
-  "layout": "LAYOUT_MUSEMOTO_CITY",
+  "id": "MAP_MUSEMOTOR_CITY",
+  "name": "MusemotorCity",
+  "layout": "LAYOUT_MUSEMOTOR_CITY",
   "music": "MUS_RUSTBORO",
   "region_map_section": "MAPSEC_RUSTBORO_CITY",
   "requires_flash": false,
