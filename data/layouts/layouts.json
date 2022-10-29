@@ -52,14 +52,14 @@
       "blockdata_filepath": "data/layouts/FortreeCity/map.bin"
     },
     {
-      "id": "LAYOUT_LILYCOVE_CITY",
-      "name": "LilycoveCity_Layout",
+      "id": "LAYOUT_KUSAKATTA_CITY",
+      "name": "KusakattaCity_Layout",
       "width": 80,
       "height": 40,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Lilycove",
-      "border_filepath": "data/layouts/LilycoveCity/border.bin",
-      "blockdata_filepath": "data/layouts/LilycoveCity/map.bin"
+      "border_filepath": "data/layouts/KusakattaCity/border.bin",
+      "blockdata_filepath": "data/layouts/KusakattaCity/map.bin"
     },
     {
       "id": "LAYOUT_MOSSDEEP_CITY",
@@ -112,14 +112,14 @@
       "blockdata_filepath": "data/layouts/OldaleTown/map.bin"
     },
     {
-      "id": "LAYOUT_DEWFORD_TOWN",
-      "name": "DewfordTown_Layout",
+      "id": "LAYOUT_SANDPORT_TOWN",
+      "name": "SandportTown_Layout",
       "width": 20,
       "height": 20,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Dewford",
-      "border_filepath": "data/layouts/DewfordTown/border.bin",
-      "blockdata_filepath": "data/layouts/DewfordTown/map.bin"
+      "border_filepath": "data/layouts/SandportTown/border.bin",
+      "blockdata_filepath": "data/layouts/SandportTown/map.bin"
     },
     {
       "id": "LAYOUT_LAVARIDGE_TOWN",
