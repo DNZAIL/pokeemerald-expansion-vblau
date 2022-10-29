@@ -52,14 +52,14 @@
       "blockdata_filepath": "data/layouts/FortreeCity/map.bin"
     },
     {
-      "id": "LAYOUT_LILYCOVE_CITY",
-      "name": "LilycoveCity_Layout",
+      "id": "LAYOUT_KUSAKATTA_CITY",
+      "name": "KusakattaCity_Layout",
       "width": 80,
       "height": 40,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Lilycove",
-      "border_filepath": "data/layouts/LilycoveCity/border.bin",
-      "blockdata_filepath": "data/layouts/LilycoveCity/map.bin"
+      "border_filepath": "data/layouts/KusakattaCity/border.bin",
+      "blockdata_filepath": "data/layouts/KusakattaCity/map.bin"
     },
     {
       "id": "LAYOUT_MOSSDEEP_CITY",
