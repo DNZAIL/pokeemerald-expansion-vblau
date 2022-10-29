@@ -175,8 +175,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 36,
-      "y": 51,
+      "x": 29,
+      "y": 47,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 0,
@@ -227,8 +227,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BOY_1",
-      "x": 31,
-      "y": 36,
+      "x": 18,
+      "y": 34,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 0,
@@ -241,8 +241,8 @@
   ],
   "warp_events": [
     {
-      "x": 52,
-      "y": 22,
+      "x": 42,
+      "y": 50,
       "elevation": 0,
       "dest_map": "MAP_RUSTBORO_CITY_GYM",
       "dest_warp_id": 0
@@ -269,8 +269,8 @@
       "dest_warp_id": 0
     },
     {
-      "x": 27,
-      "y": 34,
+      "x": 50,
+      "y": 39,
       "elevation": 0,
       "dest_map": "MAP_RUSTBORO_CITY_POKEMON_SCHOOL",
       "dest_warp_id": 0
@@ -304,8 +304,8 @@
       "dest_warp_id": 0
     },
     {
-      "x": 30,
-      "y": 28,
+      "x": 34,
+      "y": 35,
       "elevation": 0,
       "dest_map": "MAP_RUSTBORO_CITY_HOUSE2",
       "dest_warp_id": 0
@@ -318,8 +318,8 @@
       "dest_warp_id": 0
     },
     {
-      "x": 39,
-      "y": 45,
+      "x": 27,
+      "y": 35,
       "elevation": 0,
       "dest_map": "MAP_RUSTBORO_CITY_HOUSE3",
       "dest_warp_id": 0
@@ -519,8 +519,8 @@
   "bg_events": [
     {
       "type": "sign",
-      "x": 48,
-      "y": 22,
+      "x": 38,
+      "y": 50,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "RustboroCity_EventScript_GymSign"
