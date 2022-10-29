@@ -21,7 +21,7 @@
     {
       "direction": "right",
       "offset": 0,
-      "map": "MAP_OLDALE_TOWN"
+      "map": "MAP_MUSEMOTOR_CITY"
     }
   ],
   "object_events": [
@@ -143,8 +143,12 @@
       "flag": "0"
     }
   ],
-  "warp_events": [],
-  "coord_events": [],
+  "warp_events": [
+
+  ],
+  "coord_events": [
+
+  ],
   "bg_events": [
     {
       "type": "sign",

@@ -1,6 +1,6 @@
 {
-  "id": "MAP_LILYCOVE_CITY",
-  "name": "LilycoveCity",
+  "id": "MAP_KUSAKATTA_CITY",
+  "name": "KusakattaCity",
   "layout": "LAYOUT_KUSAKATTA_CITY",
   "music": "MUS_LILYCOVE",
   "region_map_section": "MAPSEC_LILYCOVE_CITY",
@@ -22,6 +22,11 @@
       "direction": "right",
       "offset": -10,
       "map": "MAP_ROUTE124"
+    },
+    {
+      "direction": "down",
+      "offset": 20,
+      "map": "MAP_ROUTE115"
     }
   ],
   "object_events": [
@@ -412,7 +417,9 @@
       "dest_warp_id": 1
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+
+  ],
   "bg_events": [
     {
       "type": "sign",
