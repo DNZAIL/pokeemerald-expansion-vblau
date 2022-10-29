@@ -16,12 +16,17 @@
     {
       "direction": "left",
       "offset": 0,
-      "map": "MAP_VERDANTURF_TOWN"
+      "map": "MAP_MUSEMOTOR_CITY"
     },
     {
       "direction": "right",
       "offset": 0,
       "map": "MAP_MAUVILLE_CITY"
+    },
+    {
+      "direction": "right",
+      "offset": -53,
+      "map": "MAP_ROUTE120"
     }
   ],
   "object_events": [
@@ -347,7 +352,9 @@
       "dest_warp_id": 0
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+
+  ],
   "bg_events": [
     {
       "type": "sign",
