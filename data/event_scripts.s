@@ -108,7 +108,7 @@ gStdScripts_End::
 	.include "data/maps/MusemotorCity/scripts.inc"
 	.include "data/maps/FortreeCity/scripts.inc"
 	.include "data/maps/KusakattaCity/scripts.inc"
-	.include "data/maps/MossdeepCity/scripts.inc"
+	.include "data/maps/CCity/scripts.inc"
 	.include "data/maps/SootopolisCity/scripts.inc"
 	.include "data/maps/EverGrandeCity/scripts.inc"
 	.include "data/maps/LittlerootTown/scripts.inc"
