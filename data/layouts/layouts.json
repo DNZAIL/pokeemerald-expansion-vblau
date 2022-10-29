@@ -112,14 +112,14 @@
       "blockdata_filepath": "data/layouts/OldaleTown/map.bin"
     },
     {
-      "id": "LAYOUT_DEWFORD_TOWN",
-      "name": "DewfordTown_Layout",
+      "id": "LAYOUT_SANDPORT_TOWN",
+      "name": "SandportTown_Layout",
       "width": 20,
       "height": 20,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Dewford",
-      "border_filepath": "data/layouts/DewfordTown/border.bin",
-      "blockdata_filepath": "data/layouts/DewfordTown/map.bin"
+      "border_filepath": "data/layouts/SandportTown/border.bin",
+      "blockdata_filepath": "data/layouts/SandportTown/map.bin"
     },
     {
       "id": "LAYOUT_LAVARIDGE_TOWN",
