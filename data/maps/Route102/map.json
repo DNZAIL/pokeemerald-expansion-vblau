@@ -14,14 +14,14 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "direction": "left",
-      "offset": -10,
-      "map": "MAP_PETALBURG_CITY"
-    },
-    {
       "direction": "right",
       "offset": 0,
       "map": "MAP_MUSEMOTOR_CITY"
+    },
+    {
+      "direction": "up",
+      "offset": -11,
+      "map": "MAP_ROUTE115"
     }
   ],
   "object_events": [
