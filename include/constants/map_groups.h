@@ -12,7 +12,7 @@
 #define MAP_MUSEMOTOR_CITY      (3 | (0 << 8))
 #define MAP_FORTREE_CITY        (4 | (0 << 8))
 #define MAP_KUSAKATTA_CITY      (5 | (0 << 8))
-#define MAP_CCITY               (6 | (0 << 8))
+#define MAP_OHIYO_CITY               (6 | (0 << 8))
 #define MAP_SOOTOPOLIS_CITY     (7 | (0 << 8))
 #define MAP_EVER_GRANDE_CITY    (8 | (0 << 8))
 #define MAP_LITTLEROOT_TOWN     (9 | (0 << 8))

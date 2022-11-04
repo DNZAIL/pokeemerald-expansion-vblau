@@ -62,14 +62,14 @@
       "blockdata_filepath": "data/layouts/KusakattaCity/map.bin"
     },
     {
-      "id": "LAYOUT_C_CITY",
-      "name": "C_Layout",
+      "id": "LAYOUT_OHIYO_CITY",
+      "name": "Ohiyo_City_Layout",
       "width": 80,
       "height": 40,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Mossdeep",
-      "border_filepath": "data/layouts/CCity/border.bin",
-      "blockdata_filepath": "data/layouts/CCity/map.bin"
+      "border_filepath": "data/layouts/OhiyoCity/border.bin",
+      "blockdata_filepath": "data/layouts/OhiyoCity/map.bin"
     },
     {
       "id": "LAYOUT_SOOTOPOLIS_CITY",
