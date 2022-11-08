@@ -3391,24 +3391,24 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne1[] = {
 static const struct TrainerMonItemCustomMoves sParty_Brawly1[] = {
     {
     .iv = 100,
-    .lvl = 16,
-    .species = SPECIES_MACHOP,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_KARATE_CHOP, MOVE_LOW_KICK, MOVE_SEISMIC_TOSS, MOVE_BULK_UP}
+    .lvl = 12,
+    .species = SPECIES_DARUMAKA,
+    .heldItem = ITEM_PASSHO_BERRY,
+    .moves = {MOVE_INCINERATE, MOVE_ROCK_SMASH, MOVE_ROCK_SLIDE, MOVE_WORK_UP}
     },
     {
     .iv = 100,
-    .lvl = 16,
-    .species = SPECIES_MEDITITE,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_FOCUS_PUNCH, MOVE_LIGHT_SCREEN, MOVE_REFLECT, MOVE_BULK_UP}
+    .lvl = 12,
+    .species = SPECIES_HOUNDOUR,
+    .heldItem = ITEM_ROCKY_HELMET,
+    .moves = {MOVE_TAUNT, MOVE_HOWL, MOVE_PAYBACK, MOVE_FLAME_CHARGE}
     },
     {
     .iv = 200,
-    .lvl = 19,
-    .species = SPECIES_MAKUHITA,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_ARM_THRUST, MOVE_VITAL_THROW, MOVE_REVERSAL, MOVE_BULK_UP}
+    .lvl = 14,
+    .species = SPECIES_CHARMANDER,
+    .heldItem = ITEM_QUICK_CLAW,
+    .moves = {MOVE_DRAGON_BREATH, MOVE_ROCK_TOMB, MOVE_FLAME_CHARGE, MOVE_SNARL}
     }
 };
 
