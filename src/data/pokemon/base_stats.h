@@ -1779,13 +1779,13 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_CLEFABLE] =
     {
-        .baseHP        = 95,
+        .baseHP        = 105,
         .baseAttack    = 70,
-        .baseDefense   = 73,
-        .baseSpeed     = 60,
-        .baseSpDefense = 90,
+        .baseDefense   = 93,
+        .baseSpeed     = 87,
+        .baseSpDefense = 120,
         #if P_UPDATED_STATS >= GEN_6
-            .baseSpAttack  = 95,
+            .baseSpAttack  = 125,
         #else
             .baseSpAttack  = 85,
         #endif
