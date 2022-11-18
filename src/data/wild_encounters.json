@@ -8493,8 +8493,8 @@
           }
         },
         {
-          "map": "MAP_LILYCOVE_CITY",
-          "base_label": "gLilycoveCity",
+          "map": "MAP_KUSAKATTA_CITY",
+          "base_label": "gKusakattaCity",
           "water_mons": {
             "encounter_rate": 4,
             "mons": [
@@ -8582,8 +8582,8 @@
           }
         },
         {
-          "map": "MAP_DEWFORD_TOWN",
-          "base_label": "gDewfordTown",
+          "map": "MAP_SANDPORT_TOWN",
+          "base_label": "gSandportTown",
           "water_mons": {
             "encounter_rate": 4,
             "mons": [
@@ -8760,8 +8760,8 @@
           }
         },
         {
-          "map": "MAP_MOSSDEEP_CITY",
-          "base_label": "gMossdeepCity",
+          "map": "MAP_OHIYO_CITY",
+          "base_label": "gOhiyoCity",
           "water_mons": {
             "encounter_rate": 4,
             "mons": [

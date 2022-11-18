@@ -4,15 +4,17 @@
 .set LOCALID_GRUNT, 10
 .set LOCALID_RIVAL, 14
 .set LOCALID_SCIENTIST, 15
+.set LOCALID_MOM, 16
 
 MusemotorCity_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, RustboroCity_OnTransition
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, RustboroCity_OnFrame
+	map_script MAP_SCRIPT_ON_TRANSITION, MusemotorCity_OnTransition
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, MusemotorCity_OnFrame
 	.byte 0
 
-RustboroCity_OnTransition:
+MusemotorCity_OnTransition:
 	setflag FLAG_VISITED_RUSTBORO_CITY
 	call Common_EventScript_SetupRivalGfxId
+	call_if_eq VAR_MUSEMOTOR_INTRO_STATE, 2, MusemotorCity_EventScript_MoveMomToMaysDoor
 	call_if_eq VAR_RUSTBORO_CITY_STATE, 6, RustboroCity_EventScript_HideMapNamePopup
 	getplayerxy VAR_TEMP_0, VAR_TEMP_1
 	goto_if_eq VAR_RUSTBORO_CITY_STATE, 6, RustboroCity_EventScript_PositionScientistForExit
@@ -27,13 +29,226 @@ RustboroCity_EventScript_PositionScientistLeftExit::
 	setobjectxyperm LOCALID_SCIENTIST, 11, 15
 	end
 
+MusemotorCity_EventScript_MoveMomToMaysDoor::
+	setobjectxyperm LOCALID_MOM, 41, 34
+	return
+
+MusemotorCity_EventScript_SetMomStandingInFrontOfDoorPos::
+	clearflag FLAG_HIDE_LITTLEROOT_TOWN_MOM_OUTSIDE
+	setobjectmovementtype LOCALID_MOM, MOVEMENT_TYPE_FACE_DOWN
+	checkplayergender
+	call_if_eq VAR_RESULT, MALE, MusemotorCity_EventScript_SetMomInFrontOfDoorMale
+	call_if_eq VAR_RESULT, FEMALE, MusemotorCity_EventScript_SetMomInFrontOfDoorFemale
+	return
+
+MusemotorCity_EventScript_SetMomInFrontOfDoorMale::
+	setobjectxyperm LOCALID_MOM, 34, 36
+	return
+
+MusemotorCity_EventScript_SetMomInFrontOfDoorFemale::
+	setobjectxyperm LOCALID_MOM, 41, 35
+	return
+
+MusemotorCity_OnFrame:
+	map_script_2 VAR_MUSEMOTOR_INTRO_STATE, 1, MusemotorCity_EventScript_StepOffTruckMale
+	map_script_2 VAR_MUSEMOTOR_INTRO_STATE, 2, MusemotorCity_EventScript_StepOffTruckFemale
+	map_script_2 VAR_RUSTBORO_CITY_STATE, 6, RustboroCity_EventScript_ScientistAddMatchCall
+	.2byte 0
+
+MusemotorCity_EventScript_StepOffTruckMale::
+	lockall
+	setvar VAR_0x8004, 34
+	setvar VAR_0x8005, 35
+	call MusemotorCity_EventScript_GoInsideWithMom
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_TRUCK
+	warpsilent MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F, 8, 8
+	waitstate
+	releaseall
+	end
+
+MusemotorCity_EventScript_StepOffTruckFemale::
+	lockall
+	setvar VAR_0x8004, 41
+	setvar VAR_0x8005, 34
+	call MusemotorCity_EventScript_GoInsideWithMom
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_TRUCK
+	warpsilent MAP_LITTLEROOT_TOWN_MAYS_HOUSE_1F, 2, 8
+	waitstate
+	releaseall
+	end
+
+MusemotorCity_EventScript_GoInsideWithMom::
+	delay 15
+	playse SE_LEDGE
+	applymovement OBJ_EVENT_ID_PLAYER, MusemotorCity_Movement_PlayerStepOffTruck
+	waitmovement 0
+	opendoor VAR_0x8004, VAR_0x8005
+	waitdooranim
+	addobject LOCALID_MOM
+	applymovement LOCALID_MOM, MusemotorCity_Movement_MomExitHouse
+	waitmovement 0
+	closedoor VAR_0x8004, VAR_0x8005
+	waitdooranim
+	delay 10
+	applymovement LOCALID_MOM, MusemotorCity_Movement_MomApproachPlayerAtTruck
+	waitmovement 0
+	msgbox MusemotorCity_Text_OurNewHomeLetsGoInside, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_MOM, MusemotorCity_Movement_MomApproachDoor
+	applymovement OBJ_EVENT_ID_PLAYER, MusemotorCity_Movement_PlayerApproachDoor
+	waitmovement 0
+	opendoor VAR_0x8004, VAR_0x8005
+	waitdooranim
+	applymovement LOCALID_MOM, MusemotorCity_Movement_MomEnterHouse
+	applymovement OBJ_EVENT_ID_PLAYER, MusemotorCity_Movement_PlayerEnterHouse
+	waitmovement 0
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_MOM_OUTSIDE
+	hideobjectat OBJ_EVENT_ID_PLAYER, 0
+	closedoor VAR_0x8004, VAR_0x8005
+	waitdooranim
+	clearflag FLAG_HIDE_LITTLEROOT_TOWN_FAT_MAN
+	clearflag FLAG_HIDE_MAP_NAME_POPUP
+	return
+
+MusemotorCity_Movement_MomExitHouse:
+	walk_down
+	step_end
+
+MusemotorCity_Movement_MomApproachPlayerAtTruck:
+	walk_down
+	walk_in_place_faster_left
+	step_end
+
+MusemotorCity_Movement_MomApproachDoor:
+	delay_16
+	delay_8
+	walk_up
+	step_end
+
+MusemotorCity_Movement_MomEnterHouse:
+	walk_up
+	set_invisible
+	step_end
+
+MusemotorCity_Movement_PlayerApproachDoor:
+	delay_16
+	delay_8
+	walk_right
+	walk_in_place_faster_up
+	step_end
+
+MusemotorCity_Movement_PlayerEnterHouse:
+	walk_up
+	walk_up
+	step_end
+
+MusemotorCity_Movement_PlayerStepOffTruck:
+	jump_right
+	delay_16
+	delay_16
+	delay_16
+	step_end
+
+MusemotorCity_Movement_MomExitThroughDoor:
+	walk_up
+	step_end
+
+MusemotorCity_EventScript_Mom::
+	lock
+	faceplayer
+	checkplayergender
+	call_if_eq VAR_RESULT, MALE, MusemotorCity_EventScript_SetHomeDoorCoordsMale
+	call_if_eq VAR_RESULT, FEMALE, MusemotorCity_EventScript_SetHomeDoorCoordsFemale
+	call MusemotorCity_EventScript_GiveRunningShoes
+	applymovement LOCALID_MOM, Common_Movement_WalkInPlaceFasterUp
+	waitmovement 0
+	opendoor VAR_0x8009, VAR_0x800A
+	waitdooranim
+	applymovement LOCALID_MOM, MusemotorCity_Movement_MomExitThroughDoor
+	waitmovement 0
+	hideobjectat LOCALID_MOM, MAP_MUSEMOTOR_CITY
+	closedoor VAR_0x8009, VAR_0x800A
+	waitdooranim
+	goto MusemotorCity_EventScript_SetReceivedRunningShoes
+	end
+
+MusemotorCity_EventScript_SetHomeDoorCoordsMale::
+	setvar VAR_0x8009, 34
+	setvar VAR_0x800A, 35
+	return
+
+MusemotorCity_EventScript_SetHomeDoorCoordsFemale::
+	setvar VAR_0x8009, 41
+	setvar VAR_0x800A, 34
+	return
+
+MusemotorCity_EventScript_GiveRunningShoes::
+	msgbox MusemotorCity_Text_WearTheseRunningShoes, MSGBOX_DEFAULT
+	playfanfare MUS_OBTAIN_ITEM
+	message MusemotorCity_Text_SwitchShoesWithRunningShoes
+	waitfanfare
+	setflag FLAG_RECEIVED_RUNNING_SHOES
+	msgbox MusemotorCity_Text_ExplainRunningShoes, MSGBOX_DEFAULT
+	msgbox MusemotorCity_Text_ComeHomeIfAnythingHappens, MSGBOX_DEFAULT
+	closemessage
+	delay 30
+	return
+
+MusemotorCity_EventScript_SetReceivedRunningShoes::
+	removeobject LOCALID_MOM
+	setflag FLAG_SYS_B_DASH
+	setvar VAR_LITTLEROOT_TOWN_STATE, 4
+	release
+	end
+
+MusemotorCity_Text_WearTheseRunningShoes:
+	.string "MOM: {PLAYER}! {PLAYER}! Did you\n"
+	.string "introduce yourself to PROF. BIRCH?\p"
+	.string "Oh! What an adorable POKéMON!\n"
+	.string "You got it from PROF. BIRCH. How nice!\p"
+	.string "You're your father's child, all right.\n"
+	.string "You look good together with POKéMON!\p"
+	.string "Here, honey! If you're going out on an\n"
+	.string "adventure, wear these RUNNING SHOES.\p"
+	.string "They'll put a zip in your step!$"
+
+MusemotorCity_Text_SwitchShoesWithRunningShoes:
+	.string "{PLAYER} switched shoes with the\n"
+	.string "RUNNING SHOES.$"
+
+MusemotorCity_Text_ExplainRunningShoes:
+	.string "MOM: {PLAYER}, those shoes came with\n"
+	.string "instructions.\p"
+	.string "“Press the B Button while wearing these\n"
+	.string "RUNNING SHOES to run extra-fast!\p"
+	.string "“Slip on these RUNNING SHOES and race\n"
+	.string "in the great outdoors!”$"
+
+MusemotorCity_Text_ComeHomeIfAnythingHappens:
+	.string "… … … … … … … …\n"
+	.string "… … … … … … … …\p"
+	.string "To think that you have your very own\n"
+	.string "POKéMON now…\l"
+	.string "Your father will be overjoyed.\p"
+	.string "…But please be careful.\n"
+	.string "If anything happens, you can come home.\p"
+	.string "Go on, go get them, honey!$"
+
+MusemotorCity_Text_OurNewHomeLetsGoInside:
+	.string "MOM: {PLAYER}, we're here, honey!\p"
+	.string "It must be tiring riding with our things\n"
+	.string "in the moving truck.\p"
+	.string "Well, this is LITTLEROOT TOWN.\p"
+	.string "How do you like it?\n"
+	.string "This is our new home!\p"
+	.string "It has a quaint feel, but it seems to be\n"
+	.string "an easy place to live, don't you think?\p"
+	.string "And, you get your own room, {PLAYER}!\n"
+	.string "Let's go inside.$"
+
 RustboroCity_EventScript_HideMapNamePopup::
 	setflag FLAG_HIDE_MAP_NAME_POPUP
 	return
-
-RustboroCity_OnFrame:
-	map_script_2 VAR_RUSTBORO_CITY_STATE, 6, RustboroCity_EventScript_ScientistAddMatchCall
-	.2byte 0
 
 RustboroCity_EventScript_ScientistAddMatchCall::
 	lockall
