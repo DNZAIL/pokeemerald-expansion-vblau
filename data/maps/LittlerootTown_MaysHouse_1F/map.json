@@ -112,14 +112,14 @@
       "y": 8,
       "elevation": 0,
       "dest_map": "MAP_MUSEMOTOR_CITY",
-      "dest_warp_id": 0
+      "dest_warp_id": 7
     },
     {
       "x": 2,
       "y": 8,
       "elevation": 0,
       "dest_map": "MAP_MUSEMOTOR_CITY",
-      "dest_warp_id": 0
+      "dest_warp_id": 7
     },
     {
       "x": 2,
