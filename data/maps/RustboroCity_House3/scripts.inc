@@ -9,6 +9,18 @@ RustboroCity_House3_EventScript_OldWoman::
 	msgbox RustboroCity_House3_Text_NamingPikachuPekachu, MSGBOX_NPC
 	end
 
+MusemotorCity_Hideout_EventScript_SmugglersBag::
+	lock
+	faceplayer
+	setflag FLAG_SYS_POKEMON_GET
+	fadescreen FADE_TO_BLACK
+	waitmovement 0
+	special ChooseStarter
+	waitstate
+	setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
+	release
+	end
+
 @ Misspelling on purpose, see nickname
 RustboroCity_House3_EventScript_Pekachu::
 	lock
