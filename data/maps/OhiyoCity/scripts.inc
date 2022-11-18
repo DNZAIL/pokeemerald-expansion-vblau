@@ -5,7 +5,7 @@
 .set LOCALID_MAXIE, 14
 .set LOCALID_SCOTT, 16
 
-MossdeepCity_MapScripts::
+OhiyoCity_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, MossdeepCity_OnTransition
 	.byte 0
 

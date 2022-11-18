@@ -1,7 +1,7 @@
 .set LOCALID_WOMAN_1, 19
 .set LOCALID_MAN_1, 20
 
-LilycoveCity_MapScripts::
+KusakattaCity_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, LilycoveCity_OnTransition
 	map_script MAP_SCRIPT_ON_LOAD, LilycoveCity_OnLoad
 	.byte 0
