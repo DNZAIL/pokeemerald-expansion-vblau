@@ -40,7 +40,7 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RustboroCity_EventScript_Woman",
+      "script": "",
       "flag": "0"
     },
     {
@@ -348,7 +348,7 @@
       "y": 50,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": ""
+      "script": "RustboroCity_EventScript_GymSign"
     },
     {
       "type": "sign",
