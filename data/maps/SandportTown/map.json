@@ -3,7 +3,7 @@
   "name": "SandportTown",
   "layout": "LAYOUT_SANDPORT_TOWN",
   "music": "MUS_DEWFORD",
-  "region_map_section": "MAPSEC_DEWFORD_TOWN",
+  "region_map_section": "MAPSEC_SANDPORT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_TOWN",

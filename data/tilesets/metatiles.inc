@@ -557,3 +557,18 @@ gMetatiles_UnionRoom::
 	.align 1
 gMetatileAttributes_UnionRoom::
 	.incbin "data/tilesets/secondary/union_room/metatile_attributes.bin"
+
+	.align 1
+gMetatiles_PokemonCenterMart::
+	.incbin "data/tilesets/secondary/pokemoncentermart/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_PokemonCenterMart::
+	.incbin "data/tilesets/secondary/pokemoncentermart/metatile_attributes.bin"
+	.align 1
+gMetatiles_PokemonCenterMart2::
+	.incbin "data/tilesets/primary/pokemoncentermart2/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_PokemonCenterMart2::
+	.incbin "data/tilesets/primary/pokemoncentermart2/metatile_attributes.bin"

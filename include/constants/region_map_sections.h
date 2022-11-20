@@ -3,7 +3,7 @@
 
 #define MAPSEC_LITTLEROOT_TOWN              0x00
 #define MAPSEC_OLDALE_TOWN                  0x01
-#define MAPSEC_DEWFORD_TOWN                 0x02
+#define MAPSEC_SANDPORT_TOWN                0x02
 #define MAPSEC_LAVARIDGE_TOWN               0x03
 #define MAPSEC_FALLARBOR_TOWN               0x04
 #define MAPSEC_VERDANTURF_TOWN              0x05
@@ -11,10 +11,10 @@
 #define MAPSEC_PETALBURG_CITY               0x07
 #define MAPSEC_SLATEPORT_CITY               0x08
 #define MAPSEC_MAUVILLE_CITY                0x09
-#define MAPSEC_RUSTBORO_CITY                0x0A
+#define MAPSEC_MUSEMOTOR_CITY               0x0A
 #define MAPSEC_FORTREE_CITY                 0x0B
-#define MAPSEC_LILYCOVE_CITY                0x0C
-#define MAPSEC_MOSSDEEP_CITY                0x0D
+#define MAPSEC_KUSAKATTA_CITY               0x0C
+#define MAPSEC_OHIYO_CITY                   0x0D
 #define MAPSEC_SOOTOPOLIS_CITY              0x0E
 #define MAPSEC_EVER_GRANDE_CITY             0x0F
 #define MAPSEC_ROUTE_101                    0x10

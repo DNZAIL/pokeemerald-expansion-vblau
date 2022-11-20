@@ -830,3 +830,25 @@ gTileset_UnionRoom::
 	.4byte gMetatiles_UnionRoom
 	.4byte gMetatileAttributes_UnionRoom
 	.4byte NULL @ animation callback
+
+	.align 2
+gTileset_PokemonCenterMart::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_PokemonCenterMart
+	.4byte gTilesetPalettes_PokemonCenterMart
+	.4byte gMetatiles_PokemonCenterMart
+	.4byte gMetatileAttributes_PokemonCenterMart
+	.4byte NULL
+
+	.align 2
+gTileset_PokemonCenterMart2::
+	.byte TRUE @ is compressed
+	.byte FALSE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_PokemonCenterMart2
+	.4byte gTilesetPalettes_PokemonCenterMart2
+	.4byte gMetatiles_PokemonCenterMart2
+	.4byte gMetatileAttributes_PokemonCenterMart2
+	.4byte NULL

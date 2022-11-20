@@ -3,7 +3,7 @@
   "name": "LilycoveCity_MoveDeletersHouse",
   "layout": "LAYOUT_HOUSE2",
   "music": "MUS_LILYCOVE",
-  "region_map_section": "MAPSEC_LILYCOVE_CITY",
+  "region_map_section": "MAPSEC_KUSAKATTA_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",
@@ -12,7 +12,7 @@
   "allow_running": false,
   "show_map_name": false,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": null,
+  "connections": 0,
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
@@ -33,17 +33,21 @@
       "x": 3,
       "y": 7,
       "elevation": 0,
-      "dest_map": "MAP_LILYCOVE_CITY",
+      "dest_map": "MAP_KUSAKATTA_CITY",
       "dest_warp_id": 7
     },
     {
       "x": 4,
       "y": 7,
       "elevation": 0,
-      "dest_map": "MAP_LILYCOVE_CITY",
+      "dest_map": "MAP_KUSAKATTA_CITY",
       "dest_warp_id": 7
     }
   ],
-  "coord_events": [],
-  "bg_events": []
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
 }

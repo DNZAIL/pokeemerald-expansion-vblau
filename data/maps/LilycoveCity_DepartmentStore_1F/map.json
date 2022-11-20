@@ -3,7 +3,7 @@
   "name": "LilycoveCity_DepartmentStore_1F",
   "layout": "LAYOUT_LILYCOVE_CITY_DEPARTMENT_STORE_1F",
   "music": "MUS_LILYCOVE",
-  "region_map_section": "MAPSEC_LILYCOVE_CITY",
+  "region_map_section": "MAPSEC_KUSAKATTA_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",
@@ -12,7 +12,7 @@
   "allow_running": false,
   "show_map_name": false,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": null,
+  "connections": 0,
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_BEAUTY",
@@ -95,20 +95,6 @@
   ],
   "warp_events": [
     {
-      "x": 8,
-      "y": 7,
-      "elevation": 0,
-      "dest_map": "MAP_LILYCOVE_CITY",
-      "dest_warp_id": 0
-    },
-    {
-      "x": 9,
-      "y": 7,
-      "elevation": 0,
-      "dest_map": "MAP_LILYCOVE_CITY",
-      "dest_warp_id": 0
-    },
-    {
       "x": 16,
       "y": 1,
       "elevation": 0,
@@ -121,9 +107,25 @@
       "elevation": 0,
       "dest_map": "MAP_LILYCOVE_CITY_DEPARTMENT_STORE_ELEVATOR",
       "dest_warp_id": 0
+    },
+    {
+      "x": 8,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_KUSAKATTA_CITY",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 9,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_KUSAKATTA_CITY",
+      "dest_warp_id": 0
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+
+  ],
   "bg_events": [
     {
       "type": "sign",

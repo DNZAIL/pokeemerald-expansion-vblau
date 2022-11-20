@@ -14,10 +14,10 @@ MusemotorCity_Hideout_EventScript_SmugglersBag::
 	faceplayer
 	setflag FLAG_SYS_POKEMON_GET
 	fadescreen FADE_TO_BLACK
+	setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
 	waitmovement 0
 	special ChooseStarter
 	waitstate
-	setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
 	release
 	end
 

@@ -11,7 +11,7 @@ static const struct CityMapEntry sPokenavCityMaps[NUM_CITY_MAPS] =
         .tilemap = gPokenavCityMap_Oldale_0,
     },
     {
-        .mapSecId = MAPSEC_DEWFORD_TOWN,
+        .mapSecId = MAPSEC_SANDPORT_TOWN,
         .index = 0,
         .tilemap = gPokenavCityMap_Dewford_0,
     },
@@ -61,12 +61,12 @@ static const struct CityMapEntry sPokenavCityMaps[NUM_CITY_MAPS] =
         .tilemap = gPokenavCityMap_Mauville_1,
     },
     {
-        .mapSecId = MAPSEC_RUSTBORO_CITY,
+        .mapSecId = MAPSEC_MUSEMOTOR_CITY,
         .index = 0,
         .tilemap = gPokenavCityMap_Rustboro_0,
     },
     {
-        .mapSecId = MAPSEC_RUSTBORO_CITY,
+        .mapSecId = MAPSEC_MUSEMOTOR_CITY,
         .index = 1,
         .tilemap = gPokenavCityMap_Rustboro_1,
     },
@@ -76,22 +76,22 @@ static const struct CityMapEntry sPokenavCityMaps[NUM_CITY_MAPS] =
         .tilemap = gPokenavCityMap_Fortree_0,
     },
     {
-        .mapSecId = MAPSEC_LILYCOVE_CITY,
+        .mapSecId = MAPSEC_KUSAKATTA_CITY,
         .index = 0,
         .tilemap = gPokenavCityMap_Lilycove_0,
     },
     {
-        .mapSecId = MAPSEC_LILYCOVE_CITY,
+        .mapSecId = MAPSEC_KUSAKATTA_CITY,
         .index = 1,
         .tilemap = gPokenavCityMap_Lilycove_1,
     },
     {
-        .mapSecId = MAPSEC_MOSSDEEP_CITY,
+        .mapSecId = MAPSEC_OHIYO_CITY,
         .index = 0,
         .tilemap = gPokenavCityMap_Mossdeep_0,
     },
     {
-        .mapSecId = MAPSEC_MOSSDEEP_CITY,
+        .mapSecId = MAPSEC_OHIYO_CITY,
         .index = 1,
         .tilemap = gPokenavCityMap_Mossdeep_1,
     },

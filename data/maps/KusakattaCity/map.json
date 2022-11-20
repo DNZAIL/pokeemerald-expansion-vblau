@@ -3,7 +3,7 @@
   "name": "KusakattaCity",
   "layout": "LAYOUT_KUSAKATTA_CITY",
   "music": "MUS_LILYCOVE",
-  "region_map_section": "MAPSEC_LILYCOVE_CITY",
+  "region_map_section": "MAPSEC_KUSAKATTA_CITY",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_CITY",
@@ -323,42 +323,42 @@
       "y": 6,
       "elevation": 0,
       "dest_map": "MAP_LILYCOVE_CITY_DEPARTMENT_STORE_1F",
-      "dest_warp_id": 0
+      "dest_warp_id": 2
     },
     {
       "x": 37,
       "y": 24,
       "elevation": 0,
       "dest_map": "MAP_LILYCOVE_CITY_COVE_LILY_MOTEL_1F",
-      "dest_warp_id": 0
+      "dest_warp_id": 1
     },
     {
       "x": 24,
       "y": 14,
       "elevation": 0,
       "dest_map": "MAP_LILYCOVE_CITY_POKEMON_CENTER_1F",
-      "dest_warp_id": 0
+      "dest_warp_id": 1
     },
     {
       "x": 11,
       "y": 5,
       "elevation": 0,
       "dest_map": "MAP_LILYCOVE_CITY_LILYCOVE_MUSEUM_1F",
-      "dest_warp_id": 0
+      "dest_warp_id": 1
     },
     {
       "x": 23,
       "y": 24,
       "elevation": 0,
       "dest_map": "MAP_LILYCOVE_CITY_CONTEST_LOBBY",
-      "dest_warp_id": 0
+      "dest_warp_id": 2
     },
     {
       "x": 39,
       "y": 14,
       "elevation": 0,
       "dest_map": "MAP_LILYCOVE_CITY_POKEMON_TRAINER_FAN_CLUB",
-      "dest_warp_id": 1
+      "dest_warp_id": 0
     },
     {
       "x": 70,
@@ -414,7 +414,7 @@
       "y": 5,
       "elevation": 0,
       "dest_map": "MAP_LILYCOVE_CITY_LILYCOVE_MUSEUM_1F",
-      "dest_warp_id": 1
+      "dest_warp_id": 2
     }
   ],
   "coord_events": [
