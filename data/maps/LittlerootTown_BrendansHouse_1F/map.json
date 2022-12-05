@@ -111,22 +111,32 @@
       "x": 9,
       "y": 8,
       "elevation": 0,
+<<<<<<< HEAD
       "dest_map": "MAP_MUSEMOTOR_CITY",
       "dest_warp_id": 9
+=======
+      "dest_map": "MAP_LITTLEROOT_TOWN",
+      "dest_warp_id": "1"
+>>>>>>> 23acbb370dabaf339e419cf1e2b6e13f3640c734
     },
     {
       "x": 8,
       "y": 8,
       "elevation": 0,
+<<<<<<< HEAD
       "dest_map": "MAP_MUSEMOTOR_CITY",
       "dest_warp_id": 9
+=======
+      "dest_map": "MAP_LITTLEROOT_TOWN",
+      "dest_warp_id": "1"
+>>>>>>> 23acbb370dabaf339e419cf1e2b6e13f3640c734
     },
     {
       "x": 8,
       "y": 2,
       "elevation": 0,
       "dest_map": "MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F",
-      "dest_warp_id": 0
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [

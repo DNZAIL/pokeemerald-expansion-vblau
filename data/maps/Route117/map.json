@@ -14,19 +14,27 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "direction": "left",
+      "map": "MAP_VERDANTURF_TOWN",
       "offset": 0,
+<<<<<<< HEAD
       "map": "MAP_MUSEMOTOR_CITY"
+=======
+      "direction": "left"
+>>>>>>> 23acbb370dabaf339e419cf1e2b6e13f3640c734
     },
     {
-      "direction": "right",
+      "map": "MAP_MAUVILLE_CITY",
       "offset": 0,
+<<<<<<< HEAD
       "map": "MAP_MAUVILLE_CITY"
     },
     {
       "direction": "right",
       "offset": -53,
       "map": "MAP_ROUTE120"
+=======
+      "direction": "right"
+>>>>>>> 23acbb370dabaf339e419cf1e2b6e13f3640c734
     }
   ],
   "object_events": [
@@ -349,7 +357,7 @@
       "y": 5,
       "elevation": 0,
       "dest_map": "MAP_ROUTE117_POKEMON_DAY_CARE",
-      "dest_warp_id": 0
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [

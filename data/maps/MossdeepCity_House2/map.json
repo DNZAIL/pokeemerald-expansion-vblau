@@ -59,15 +59,25 @@
       "x": 3,
       "y": 8,
       "elevation": 0,
+<<<<<<< HEAD
       "dest_map": "MAP_OHIYO_CITY",
       "dest_warp_id": 3
+=======
+      "dest_map": "MAP_MOSSDEEP_CITY",
+      "dest_warp_id": "3"
+>>>>>>> 23acbb370dabaf339e419cf1e2b6e13f3640c734
     },
     {
       "x": 4,
       "y": 8,
       "elevation": 0,
+<<<<<<< HEAD
       "dest_map": "MAP_OHIYO_CITY",
       "dest_warp_id": 3
+=======
+      "dest_map": "MAP_MOSSDEEP_CITY",
+      "dest_warp_id": "3"
+>>>>>>> 23acbb370dabaf339e419cf1e2b6e13f3640c734
     }
   ],
   "coord_events": [

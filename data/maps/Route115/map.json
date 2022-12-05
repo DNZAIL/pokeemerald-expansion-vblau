@@ -14,6 +14,7 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
+<<<<<<< HEAD
       "direction": "down",
       "offset": 11,
       "map": "MAP_ROUTE102"
@@ -22,6 +23,16 @@
       "direction": "up",
       "offset": 0,
       "map": "MAP_KUSAKATTA_CITY"
+=======
+      "map": "MAP_RUSTBORO_CITY",
+      "offset": 0,
+      "direction": "down"
+    },
+    {
+      "map": "MAP_ROUTE114",
+      "offset": -40,
+      "direction": "right"
+>>>>>>> 23acbb370dabaf339e419cf1e2b6e13f3640c734
     }
   ],
   "object_events": [
@@ -331,21 +342,21 @@
       "y": 37,
       "elevation": 0,
       "dest_map": "MAP_METEOR_FALLS_1F_1R",
-      "dest_warp_id": 1
+      "dest_warp_id": "1"
     },
     {
       "x": 21,
       "y": 6,
       "elevation": 0,
       "dest_map": "MAP_TERRA_CAVE_ENTRANCE",
-      "dest_warp_id": 0
+      "dest_warp_id": "0"
     },
     {
       "x": 36,
       "y": 10,
       "elevation": 0,
       "dest_map": "MAP_TERRA_CAVE_ENTRANCE",
-      "dest_warp_id": 0
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [

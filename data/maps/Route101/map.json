@@ -14,14 +14,20 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
+<<<<<<< HEAD
       "direction": "up",
       "offset": -8,
       "map": "MAP_MUSEMOTOR_CITY"
+=======
+      "map": "MAP_OLDALE_TOWN",
+      "offset": 0,
+      "direction": "up"
+>>>>>>> 23acbb370dabaf339e419cf1e2b6e13f3640c734
     },
     {
-      "direction": "down",
+      "map": "MAP_LITTLEROOT_TOWN",
       "offset": 0,
-      "map": "MAP_LITTLEROOT_TOWN"
+      "direction": "down"
     }
   ],
   "object_events": [
