@@ -124,25 +124,15 @@
       "x": 5,
       "y": 27,
       "elevation": 0,
-<<<<<<< HEAD
       "dest_map": "MAP_MUSEMOTOR_CITY",
       "dest_warp_id": 0
-=======
-      "dest_map": "MAP_DEWFORD_TOWN",
-      "dest_warp_id": "2"
->>>>>>> 23acbb370dabaf339e419cf1e2b6e13f3640c734
     },
     {
       "x": 6,
       "y": 27,
       "elevation": 0,
-<<<<<<< HEAD
       "dest_map": "MAP_MUSEMOTOR_CITY",
       "dest_warp_id": 0
-=======
-      "dest_map": "MAP_DEWFORD_TOWN",
-      "dest_warp_id": "2"
->>>>>>> 23acbb370dabaf339e419cf1e2b6e13f3640c734
     }
   ],
   "coord_events": [

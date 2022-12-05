@@ -14,7 +14,6 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-<<<<<<< HEAD:data/maps/MusemotorCity/map.json
       "direction": "down",
       "offset": 8,
       "map": "MAP_ROUTE101"
@@ -23,25 +22,11 @@
       "direction": "left",
       "offset": 0,
       "map": "MAP_ROUTE102"
-=======
-      "map": "MAP_ROUTE115",
-      "offset": 0,
-      "direction": "up"
     },
     {
-      "map": "MAP_ROUTE104",
-      "offset": 0,
-      "direction": "down"
->>>>>>> 23acbb370dabaf339e419cf1e2b6e13f3640c734:data/maps/RustboroCity/map.json
-    },
-    {
-      "map": "MAP_ROUTE116",
-      "offset": 0,
-<<<<<<< HEAD:data/maps/MusemotorCity/map.json
-      "map": "MAP_ROUTE117"
-=======
-      "direction": "right"
->>>>>>> 23acbb370dabaf339e419cf1e2b6e13f3640c734:data/maps/RustboroCity/map.json
+        "direction": "right",
+        "offset": 0,
+        "map": "MAP_ROUTE117"
     }
   ],
   "object_events": [
@@ -259,13 +244,8 @@
       "x": 42,
       "y": 50,
       "elevation": 0,
-<<<<<<< HEAD:data/maps/MusemotorCity/map.json
       "dest_map": "MAP_DEWFORD_TOWN_GYM",
       "dest_warp_id": 0
-=======
-      "dest_map": "MAP_RUSTBORO_CITY_GYM",
-      "dest_warp_id": "0"
->>>>>>> 23acbb370dabaf339e419cf1e2b6e13f3640c734:data/maps/RustboroCity/map.json
     },
     {
       "x": 13,
@@ -300,68 +280,42 @@
       "y": 17,
       "elevation": 0,
       "dest_map": "MAP_RUSTBORO_CITY_DEVON_CORP_1F",
-<<<<<<< HEAD:data/maps/MusemotorCity/map.json
       "dest_warp_id": 1
-=======
-      "dest_warp_id": "0"
->>>>>>> 23acbb370dabaf339e419cf1e2b6e13f3640c734:data/maps/RustboroCity/map.json
     },
     {
       "x": 12,
       "y": 17,
       "elevation": 0,
       "dest_map": "MAP_RUSTBORO_CITY_DEVON_CORP_1F",
-<<<<<<< HEAD:data/maps/MusemotorCity/map.json
       "dest_warp_id": 2
-=======
-      "dest_warp_id": "1"
->>>>>>> 23acbb370dabaf339e419cf1e2b6e13f3640c734:data/maps/RustboroCity/map.json
     },
     {
       "x": 41,
       "y": 34,
       "elevation": 0,
-<<<<<<< HEAD:data/maps/MusemotorCity/map.json
       "dest_map": "MAP_LITTLEROOT_TOWN_MAYS_HOUSE_1F",
       "dest_warp_id": 0
-=======
-      "dest_map": "MAP_RUSTBORO_CITY_HOUSE1",
-      "dest_warp_id": "0"
->>>>>>> 23acbb370dabaf339e419cf1e2b6e13f3640c734:data/maps/RustboroCity/map.json
     },
     {
       "x": 9,
       "y": 38,
       "elevation": 0,
       "dest_map": "MAP_RUSTBORO_CITY_CUTTERS_HOUSE",
-<<<<<<< HEAD:data/maps/MusemotorCity/map.json
       "dest_warp_id": 1
-=======
-      "dest_warp_id": "0"
->>>>>>> 23acbb370dabaf339e419cf1e2b6e13f3640c734:data/maps/RustboroCity/map.json
     },
     {
       "x": 34,
       "y": 35,
       "elevation": 0,
-<<<<<<< HEAD:data/maps/MusemotorCity/map.json
       "dest_map": "MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F",
       "dest_warp_id": 0
-=======
-      "dest_map": "MAP_RUSTBORO_CITY_HOUSE2",
-      "dest_warp_id": "0"
->>>>>>> 23acbb370dabaf339e419cf1e2b6e13f3640c734:data/maps/RustboroCity/map.json
     },
     {
       "x": 5,
       "y": 49,
       "elevation": 0,
       "dest_map": "MAP_RUSTBORO_CITY_FLAT2_1F",
-<<<<<<< HEAD:data/maps/MusemotorCity/map.json
       "dest_warp_id": 1
-=======
-      "dest_warp_id": "0"
->>>>>>> 23acbb370dabaf339e419cf1e2b6e13f3640c734:data/maps/RustboroCity/map.json
     },
     {
       "x": 27,
