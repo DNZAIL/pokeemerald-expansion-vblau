@@ -2314,7 +2314,6 @@
                 "species": "SPECIES_BASCULIN_BLUE_STRIPED"
               },
               {
-<<<<<<< HEAD
                 "min_level": 25,
                 "max_level": 35,
                 "species": "SPECIES_WISHIWASHI"
@@ -2323,10 +2322,6 @@
                 "min_level": 35,
                 "max_level": 45,
                 "species": "SPECIES_DRAGONAIR"
-=======
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_NONE"
               },
               {
                 "min_level": 5,
@@ -2357,12 +2352,6 @@
                 "min_level": 5,
                 "max_level": 5,
                 "species": "SPECIES_NONE"
-              },
-              {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_NONE"
->>>>>>> 4bad3584f588770f8252f2314b5ecda8742e9ede
               }
             ]
           }
