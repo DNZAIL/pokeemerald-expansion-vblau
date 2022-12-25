@@ -19,9 +19,9 @@
       "direction": "down"
     },
     {
-      "direction": "right",
+      "map": "MAP_OHIYO_CITY",
       "offset": 5,
-      "map": "MAP_OHIYO_CITY"
+      "direction": "right"
     }
   ],
   "object_events": [
