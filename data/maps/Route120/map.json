@@ -14,29 +14,14 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-<<<<<<< HEAD
       "direction": "left",
       "offset": 53,
       "map": "MAP_ROUTE117"
-=======
-      "map": "MAP_FORTREE_CITY",
-      "offset": 0,
-      "direction": "left"
->>>>>>> 23acbb370dabaf339e419cf1e2b6e13f3640c734
-    },
-    {
-      "map": "MAP_ROUTE121",
-      "offset": 80,
-<<<<<<< HEAD
-      "map": "MAP_ROUTE121"
     },
     {
       "direction": "up",
       "offset": 0,
       "map": "MAP_SANDPORT_TOWN"
-=======
-      "direction": "right"
->>>>>>> 23acbb370dabaf339e419cf1e2b6e13f3640c734
     }
   ],
   "object_events": [

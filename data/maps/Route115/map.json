@@ -14,7 +14,6 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-<<<<<<< HEAD
       "direction": "down",
       "offset": 11,
       "map": "MAP_ROUTE102"
@@ -23,16 +22,6 @@
       "direction": "up",
       "offset": 0,
       "map": "MAP_KUSAKATTA_CITY"
-=======
-      "map": "MAP_RUSTBORO_CITY",
-      "offset": 0,
-      "direction": "down"
-    },
-    {
-      "map": "MAP_ROUTE114",
-      "offset": -40,
-      "direction": "right"
->>>>>>> 23acbb370dabaf339e419cf1e2b6e13f3640c734
     }
   ],
   "object_events": [

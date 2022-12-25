@@ -19,25 +19,9 @@
       "direction": "down"
     },
     {
-<<<<<<< HEAD
-      "direction": "left",
-      "offset": 0,
-      "map": "MAP_ROUTE114"
-    },
-    {
       "direction": "right",
       "offset": 5,
       "map": "MAP_OHIYO_CITY"
-=======
-      "map": "MAP_ROUTE120",
-      "offset": -80,
-      "direction": "left"
-    },
-    {
-      "map": "MAP_LILYCOVE_CITY",
-      "offset": -10,
-      "direction": "right"
->>>>>>> 23acbb370dabaf339e419cf1e2b6e13f3640c734
     }
   ],
   "object_events": [
