@@ -222,7 +222,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
-      "x": 65,
+      "x": 70,
       "y": 4,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
@@ -235,8 +235,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POKEFAN_F",
-      "x": 63,
-      "y": 5,
+      "x": 66,
+      "y": 7,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
@@ -405,10 +405,10 @@
   ],
   "warp_events": [
     {
-      "x": 37,
+      "x": 34,
       "y": 5,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE121_SAFARI_ZONE_ENTRANCE",
+      "dest_map": "MAP_METEOR_FALLS_STEVENS_CAVE",
       "dest_warp_id": "2"
     }
   ],
