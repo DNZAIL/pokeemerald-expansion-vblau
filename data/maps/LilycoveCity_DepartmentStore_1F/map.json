@@ -98,49 +98,29 @@
       "x": 16,
       "y": 1,
       "elevation": 0,
-<<<<<<< HEAD
       "dest_map": "MAP_LILYCOVE_CITY_DEPARTMENT_STORE_2F",
       "dest_warp_id": 0
-=======
-      "dest_map": "MAP_LILYCOVE_CITY",
-      "dest_warp_id": "0"
->>>>>>> 23acbb370dabaf339e419cf1e2b6e13f3640c734
     },
     {
       "x": 2,
       "y": 1,
       "elevation": 0,
-<<<<<<< HEAD
       "dest_map": "MAP_LILYCOVE_CITY_DEPARTMENT_STORE_ELEVATOR",
       "dest_warp_id": 0
-=======
-      "dest_map": "MAP_LILYCOVE_CITY",
-      "dest_warp_id": "0"
->>>>>>> 23acbb370dabaf339e419cf1e2b6e13f3640c734
     },
     {
       "x": 8,
       "y": 7,
       "elevation": 0,
-<<<<<<< HEAD
       "dest_map": "MAP_KUSAKATTA_CITY",
       "dest_warp_id": 0
-=======
-      "dest_map": "MAP_LILYCOVE_CITY_DEPARTMENT_STORE_2F",
-      "dest_warp_id": "0"
->>>>>>> 23acbb370dabaf339e419cf1e2b6e13f3640c734
     },
     {
       "x": 9,
       "y": 7,
       "elevation": 0,
-<<<<<<< HEAD
       "dest_map": "MAP_KUSAKATTA_CITY",
       "dest_warp_id": 0
-=======
-      "dest_map": "MAP_LILYCOVE_CITY_DEPARTMENT_STORE_ELEVATOR",
-      "dest_warp_id": "0"
->>>>>>> 23acbb370dabaf339e419cf1e2b6e13f3640c734
     }
   ],
   "coord_events": [
