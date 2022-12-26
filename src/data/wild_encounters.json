@@ -20575,7 +20575,7 @@
                 "species": "SPECIES_DWEBBLE"
               },
               {
-                "min_level": 8,
+                "min_level": 2,
                 "max_level": 12,
                 "species": "SPECIES_SHUCKLE"
               },
@@ -20610,17 +20610,17 @@
                 "species": "SPECIES_MISDREAVUS"
               },
               {
-                "min_level": 10,
+                "min_level": 9,
                 "max_level": 14,
                 "species": "SPECIES_GIBLE"
               },
               {
-                "min_level": 10,
+                "min_level": 9,
                 "max_level": 14,
                 "species": "SPECIES_LARVITAR"
               },
               {
-                "min_level": 10,
+                "min_level": 9,
                 "max_level": 14,
                 "species": "SPECIES_BAGON"
               },
