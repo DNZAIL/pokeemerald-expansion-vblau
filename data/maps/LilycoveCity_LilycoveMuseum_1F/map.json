@@ -157,32 +157,15 @@
       "x": 9,
       "y": 13,
       "elevation": 0,
-<<<<<<< HEAD
       "dest_map": "MAP_KUSAKATTA_CITY",
       "dest_warp_id": 3
-=======
-      "dest_map": "MAP_LILYCOVE_CITY",
-      "dest_warp_id": "3"
->>>>>>> 23acbb370dabaf339e419cf1e2b6e13f3640c734
     },
     {
       "x": 10,
       "y": 13,
       "elevation": 0,
-<<<<<<< HEAD
       "dest_map": "MAP_KUSAKATTA_CITY",
       "dest_warp_id": 13
-=======
-      "dest_map": "MAP_LILYCOVE_CITY",
-      "dest_warp_id": "13"
-    },
-    {
-      "x": 16,
-      "y": 1,
-      "elevation": 0,
-      "dest_map": "MAP_LILYCOVE_CITY_LILYCOVE_MUSEUM_2F",
-      "dest_warp_id": "0"
->>>>>>> 23acbb370dabaf339e419cf1e2b6e13f3640c734
     }
   ],
   "coord_events": [

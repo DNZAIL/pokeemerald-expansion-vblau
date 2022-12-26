@@ -485,23 +485,6 @@
   ],
   "warp_events": [
     {
-<<<<<<< HEAD
-=======
-      "x": 6,
-      "y": 35,
-      "elevation": 3,
-      "dest_map": "MAP_MOSSDEEP_CITY",
-      "dest_warp_id": "1"
-    },
-    {
-      "x": 7,
-      "y": 35,
-      "elevation": 3,
-      "dest_map": "MAP_MOSSDEEP_CITY",
-      "dest_warp_id": "1"
-    },
-    {
->>>>>>> 23acbb370dabaf339e419cf1e2b6e13f3640c734
       "x": 3,
       "y": 28,
       "elevation": 0,
@@ -583,7 +566,6 @@
       "y": 10,
       "elevation": 0,
       "dest_map": "MAP_MOSSDEEP_CITY_GYM",
-<<<<<<< HEAD
       "dest_warp_id": 12
     },
     {
@@ -599,9 +581,6 @@
       "elevation": 0,
       "dest_map": "MAP_OHIYO_CITY",
       "dest_warp_id": 1
-=======
-      "dest_warp_id": "12"
->>>>>>> 23acbb370dabaf339e419cf1e2b6e13f3640c734
     }
   ],
   "coord_events": [
