@@ -60,14 +60,14 @@
       "y": 1,
       "elevation": 3,
       "dest_map": "MAP_AQUA_HIDEOUT_B1F",
-      "dest_warp_id": 0
+      "dest_warp_id": "0"
     },
     {
       "x": 13,
       "y": 27,
       "elevation": 0,
       "dest_map": "MAP_KUSAKATTA_CITY",
-      "dest_warp_id": 6
+      "dest_warp_id": "6"
     }
   ],
   "coord_events": [

@@ -4318,7 +4318,7 @@
       "height": 13,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_Lab",
-      "border_filepath": "data/layouts/LittlerootTown_Professo\u0000\u0000\u0000\u0000chsLabWithTable/border.bin",
+      "border_filepath": "data/layouts/LittlerootTown_ProfessorBirchsLabWithTable/border.bin",
       "blockdata_filepath": "data/layouts/LittlerootTown_ProfessorBirchsLabWithTable/map.bin"
     },
     {
@@ -4388,7 +4388,7 @@
       "height": 8,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_MysteryEventsHouse",
-      "border_filepath": "data/layouts/SootopolisCity_MysteryE\u0000\u0000\u0000\u0000sHouse_1F/border.bin",
+      "border_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F/border.bin",
       "blockdata_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F/map.bin"
     },
     {

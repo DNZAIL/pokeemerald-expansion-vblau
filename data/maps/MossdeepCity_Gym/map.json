@@ -566,21 +566,21 @@
       "y": 10,
       "elevation": 0,
       "dest_map": "MAP_MOSSDEEP_CITY_GYM",
-      "dest_warp_id": 12
+      "dest_warp_id": "12"
     },
     {
       "x": 6,
       "y": 35,
       "elevation": 0,
       "dest_map": "MAP_OHIYO_CITY",
-      "dest_warp_id": 1
+      "dest_warp_id": "1"
     },
     {
       "x": 7,
       "y": 35,
       "elevation": 0,
       "dest_map": "MAP_OHIYO_CITY",
-      "dest_warp_id": 1
+      "dest_warp_id": "1"
     }
   ],
   "coord_events": [

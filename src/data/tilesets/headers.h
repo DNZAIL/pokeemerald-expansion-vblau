@@ -825,3 +825,25 @@ const struct Tileset gTileset_UnionRoom =
     .metatileAttributes = gMetatileAttributes_UnionRoom,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_PokemonCenterMart =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PokemonCenterMart,
+    .palettes = gTilesetPalettes_PokemonCenterMart,
+    .metatiles = gMetatiles_PokemonCenterMart,
+    .metatileAttributes = gMetatileAttributes_PokemonCenterMart,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PokemonCenterMart2 =
+{
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_PokemonCenterMart2,
+    .palettes = gTilesetPalettes_PokemonCenterMart2,
+    .metatiles = gMetatiles_PokemonCenterMart2,
+    .metatileAttributes = gMetatileAttributes_PokemonCenterMart2,
+    .callback = NULL,
+};
