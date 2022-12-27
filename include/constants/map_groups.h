@@ -10,7 +10,7 @@
 #define MAP_SLATEPORT_CITY      (1 | (0 << 8))
 #define MAP_MAUVILLE_CITY       (2 | (0 << 8))
 #define MAP_MUSEMOTOR_CITY      (3 | (0 << 8))
-#define                         (4 | (0 << 8))
+#define MAP_FORTREE_CITY        (4 | (0 << 8))
 #define MAP_KUSAKATTA_CITY      (5 | (0 << 8))
 #define MAP_OHIYO_CITY          (6 | (0 << 8))
 #define MAP_SOOTOPOLIS_CITY     (7 | (0 << 8))
