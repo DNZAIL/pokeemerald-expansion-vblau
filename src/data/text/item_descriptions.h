@@ -1302,8 +1302,8 @@ static const u8 sEverstoneDesc[] = _(
 
 static const u8 sLinkCordDesc[] = _(
     "Loved by certain\n"
-    "Pokémon. Evokes strange\n"
-    "sense of connection.");
+    "Pokémon. Evokes a\n"
+    "strange connection.");
 
 // Nectars
 static const u8 sRedNectarDesc[] = _(

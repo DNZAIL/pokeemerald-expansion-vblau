@@ -1000,6 +1000,8 @@
 #define ITEM_HAS_EFFECT(item) (((item) >= ITEM_POTION && (item) <= LAST_BERRY_INDEX) \
 || (item) == ITEM_KINGS_ROCK || (item) == ITEM_DRAGON_SCALE || (item) == ITEM_METAL_COAT \
 || (item) == ITEM_UPGRADE || (item) == ITEM_DEEP_SEA_SCALE || (item) == ITEM_DEEP_SEA_TOOTH \
-|| (item) == ITEM_DUBIOUS_DISC || (item) == ITEM_ELECTIRIZER || (item) == ITEM_MAGMARIZER)
+|| (item) == ITEM_DUBIOUS_DISC || (item) == ITEM_ELECTIRIZER || (item) == ITEM_MAGMARIZER \
+|| (item) == ITEM_REAPER_CLOTH || (item) == ITEM_PROTECTOR || (item) == ITEM_LINK_CORD \
+|| (item) == ITEM_PRISM_SCALE || (item) == ITEM_SACHET || (item) == ITEM_WHIPPED_DREAM)
 
 #endif  // GUARD_CONSTANTS_ITEMS_H

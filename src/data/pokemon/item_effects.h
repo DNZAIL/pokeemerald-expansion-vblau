@@ -561,6 +561,12 @@ const u8 *const gItemEffectTable[] =
     [ITEM_DUBIOUS_DISC - ITEM_POTION]     = gItemEffect_EvoItem,
     [ITEM_ELECTIRIZER - ITEM_POTION]      = gItemEffect_EvoItem,
     [ITEM_MAGMARIZER - ITEM_POTION]       = gItemEffect_EvoItem,
+    [ITEM_REAPER_CLOTH - ITEM_POTION]     = gItemEffect_EvoItem,
+    [ITEM_PROTECTOR - ITEM_POTION]        = gItemEffect_EvoItem,
+    [ITEM_LINK_CORD - ITEM_POTION]        = gItemEffect_EvoItem,
+    [ITEM_PRISM_SCALE - ITEM_POTION]      = gItemEffect_EvoItem,
+    [ITEM_SACHET - ITEM_POTION]           = gItemEffect_EvoItem,
+    [ITEM_WHIPPED_DREAM - ITEM_POTION]    = gItemEffect_EvoItem,
 
     // Berries
     [ITEM_CHERI_BERRY - ITEM_POTION]      = gItemEffect_CheriBerry,
