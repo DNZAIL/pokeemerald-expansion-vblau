@@ -15,13 +15,18 @@
   "connections": [
     {
       "map": "MAP_ROUTE121",
-      "offset": -20,
+      "offset": 0,
       "direction": "up"
     },
     {
       "map": "MAP_ROUTE123",
-      "offset": -100,
+      "offset": -73,
       "direction": "down"
+    },
+    {
+      "map": "MAP_ROUTE114",
+      "offset": -39,
+      "direction": "left"
     }
   ],
   "object_events": [
@@ -29,10 +34,17 @@
   ],
   "warp_events": [
     {
-      "x": 22,
-      "y": 29,
+      "x": 28,
+      "y": 27,
       "elevation": 0,
       "dest_map": "MAP_MT_PYRE_1F",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 52,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_MT_PYRE_2F",
       "dest_warp_id": "0"
     }
   ],
