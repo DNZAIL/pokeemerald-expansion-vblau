@@ -1749,12 +1749,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_CLEFAIRY] =
     {
-        .baseHP        = 70,
+        .baseHP        = 95,
         .baseAttack    = 45,
-        .baseDefense   = 48,
-        .baseSpeed     = 35,
-        .baseSpAttack  = 60,
-        .baseSpDefense = 65,
+        .baseDefense   = 68,
+        .baseSpeed     = 55,
+        .baseSpAttack  = 80,
+        .baseSpDefense = 80,
         #if P_UPDATED_TYPES >= GEN_6
             .type1 = TYPE_FAIRY,
             .type2 = TYPE_FAIRY,
@@ -5219,12 +5219,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_CLEFFA] =
     {
-        .baseHP        = 50,
+        .baseHP        = 55,
         .baseAttack    = 25,
-        .baseDefense   = 28,
-        .baseSpeed     = 15,
-        .baseSpAttack  = 45,
-        .baseSpDefense = 55,
+        .baseDefense   = 40,
+        .baseSpeed     = 25,
+        .baseSpAttack  = 85,
+        .baseSpDefense = 70,
         #if P_UPDATED_TYPES >= GEN_6
             .type1 = TYPE_FAIRY,
             .type2 = TYPE_FAIRY,
@@ -10334,7 +10334,7 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_METANG] =
     {
         .baseHP        = 60,
-        .baseAttack    = 75,
+        .baseAttack    = 78,
         .baseDefense   = 100,
         .baseSpeed     = 50,
         .baseSpAttack  = 55,
@@ -22371,11 +22371,11 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_DREEPY] =
     {
         .baseHP        = 28,
-        .baseAttack    = 60,
-        .baseDefense   = 30,
+        .baseAttack    = 80,
+        .baseDefense   = 35,
         .baseSpeed     = 82,
         .baseSpAttack  = 40,
-        .baseSpDefense = 30,
+        .baseSpDefense = 35,
         .type1 = TYPE_DRAGON,
         .type2 = TYPE_GHOST,
         .catchRate = 45,
@@ -22395,7 +22395,7 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_DRAKLOAK] =
     {
         .baseHP        = 68,
-        .baseAttack    = 80,
+        .baseAttack    = 93,
         .baseDefense   = 50,
         .baseSpeed     = 102,
         .baseSpAttack  = 60,
