@@ -645,6 +645,9 @@ const u32 gItemIconPalette_RibbonSweet[] = INCBIN_U32("graphics/items/icon_palet
 const u32 gItemIcon_Everstone[] = INCBIN_U32("graphics/items/icons/everstone.4bpp.lz");
 const u32 gItemIconPalette_Everstone[] = INCBIN_U32("graphics/items/icon_palettes/everstone.gbapal.lz");
 
+const u32 gItemIcon_LinkCord[] = INCBIN_U32("graphics/items/icons/link_cord.4bpp.lz");
+const u32 gItemIconPalette_LinkCord[] = INCBIN_U32("graphics/items/icon_palettes/link_cord.gbapal.lz");
+
 // Nectars
 
 const u32 gItemIcon_RedNectar[] = INCBIN_U32("graphics/items/icons/red_nectar.4bpp.lz");

@@ -3181,6 +3181,18 @@ const struct Item gItems[] =
         .flingPower = 30,
     },
 
+    [ITEM_LINK_CORD] =
+    {
+        .name = _("Link Cord"),
+        .itemId = ITEM_LINK_CORD,
+        .price = 3000,
+        .description = sLinkCordDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+        .flingPower = 10,
+    },
+
 // Nectars
 
     [ITEM_RED_NECTAR] =
