@@ -363,7 +363,7 @@
       "y": 2,
       "elevation": 0,
       "item": "ITEM_OLD_GATEAU",
-      "flag": ""
+      "flag": "FLAG_TEMP_1"
     }
   ]
 }
