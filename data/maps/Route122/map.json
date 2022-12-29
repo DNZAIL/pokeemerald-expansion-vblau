@@ -19,14 +19,19 @@
       "direction": "up"
     },
     {
-      "map": "MAP_ROUTE123",
-      "offset": -73,
-      "direction": "down"
-    },
-    {
       "map": "MAP_ROUTE114",
       "offset": -39,
       "direction": "left"
+    },
+    {
+      "map": "MAP_OHIYO_CITY",
+      "offset": -35,
+      "direction": "right"
+    },
+    {
+      "map": "MAP_ROUTE127",
+      "offset": 5,
+      "direction": "right"
     }
   ],
   "object_events": [
