@@ -14,11 +14,6 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_UNDERWATER_ROUTE124",
-      "offset": 0,
-      "direction": "up"
-    },
-    {
       "map": "MAP_UNDERWATER_ROUTE127",
       "offset": 0,
       "direction": "right"
@@ -29,7 +24,9 @@
       "direction": "emerge"
     }
   ],
-  "object_events": [],
+  "object_events": [
+
+  ],
   "warp_events": [
     {
       "x": 45,
@@ -39,7 +36,9 @@
       "dest_warp_id": "0"
     }
   ],
-  "coord_events": [],
+  "coord_events": [
+
+  ],
   "bg_events": [
     {
       "type": "hidden_item",

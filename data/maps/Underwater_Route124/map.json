@@ -14,19 +14,40 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_UNDERWATER_ROUTE126",
-      "offset": 0,
-      "direction": "down"
-    },
-    {
       "map": "MAP_ROUTE124",
       "offset": 0,
       "direction": "emerge"
+    },
+    {
+      "map": "MAP_ROUTE121",
+      "offset": 7,
+      "direction": "down"
+    },
+    {
+      "map": "MAP_ROUTE125",
+      "offset": 0,
+      "direction": "right"
+    },
+    {
+      "map": "MAP_OHIYO_CITY",
+      "offset": 40,
+      "direction": "right"
+    },
+    {
+      "map": "MAP_ROUTE114",
+      "offset": -33,
+      "direction": "down"
     }
   ],
-  "object_events": [],
-  "warp_events": [],
-  "coord_events": [],
+  "object_events": [
+
+  ],
+  "warp_events": [
+
+  ],
+  "coord_events": [
+
+  ],
   "bg_events": [
     {
       "type": "hidden_item",
@@ -38,16 +59,16 @@
     },
     {
       "type": "hidden_item",
-      "x": 14,
-      "y": 40,
+      "x": 28,
+      "y": 13,
       "elevation": 0,
       "item": "ITEM_GREEN_SHARD",
       "flag": "FLAG_HIDDEN_ITEM_UNDERWATER_124_GREEN_SHARD"
     },
     {
       "type": "hidden_item",
-      "x": 66,
-      "y": 34,
+      "x": 69,
+      "y": 23,
       "elevation": 3,
       "item": "ITEM_PEARL",
       "flag": "FLAG_HIDDEN_ITEM_UNDERWATER_124_PEARL"
@@ -79,7 +100,7 @@
     {
       "type": "hidden_item",
       "x": 45,
-      "y": 36,
+      "y": 21,
       "elevation": 3,
       "item": "ITEM_HEART_SCALE",
       "flag": "FLAG_HIDDEN_ITEM_UNDERWATER_124_HEART_SCALE_2"

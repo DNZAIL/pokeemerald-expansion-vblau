@@ -27,6 +27,16 @@
       "map": "MAP_ROUTE114",
       "offset": 0,
       "direction": "left"
+    },
+    {
+      "map": "MAP_ROUTE125",
+      "offset": -35,
+      "direction": "right"
+    },
+    {
+      "map": "MAP_UNDERWATER_ROUTE124",
+      "offset": -7,
+      "direction": "up"
     }
   ],
   "object_events": [

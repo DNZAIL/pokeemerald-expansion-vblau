@@ -404,7 +404,7 @@
     {
       "id": "LAYOUT_ROUTE125",
       "name": "Route125_Layout",
-      "width": 80,
+      "width": 90,
       "height": 40,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Mossdeep",
@@ -2734,10 +2734,10 @@
     {
       "id": "LAYOUT_UNDERWATER_ROUTE124",
       "name": "Underwater_Route124_Layout",
-      "width": 80,
-      "height": 80,
+      "width": 87,
+      "height": 35,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Underwater",
+      "secondary_tileset": "gTileset_Lilycove",
       "border_filepath": "data/layouts/Underwater_Route124/border.bin",
       "blockdata_filepath": "data/layouts/Underwater_Route124/map.bin"
     },
