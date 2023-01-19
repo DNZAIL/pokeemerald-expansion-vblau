@@ -1547,10 +1547,10 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_SANDSHREW] =
     {
-        .baseHP        = 50,
+        .baseHP        = 60,
         .baseAttack    = 75,
-        .baseDefense   = 85,
-        .baseSpeed     = 40,
+        .baseDefense   = 95,
+        .baseSpeed     = 60,
         .baseSpAttack  = 20,
         .baseSpDefense = 30,
         .type1 = TYPE_GROUND,
@@ -1572,12 +1572,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_SANDSLASH] =
     {
-        .baseHP        = 75,
-        .baseAttack    = 100,
+        .baseHP        = 85,
+        .baseAttack    = 140,
         .baseDefense   = 110,
-        .baseSpeed     = 65,
+        .baseSpeed     = 75,
         .baseSpAttack  = 45,
-        .baseSpDefense = 55,
+        .baseSpDefense = 65,
         .type1 = TYPE_GROUND,
         .type2 = TYPE_GROUND,
         .catchRate = 90,
@@ -24224,12 +24224,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_SANDSHREW_ALOLAN] =
     {
-        .baseHP        = 50,
+        .baseHP        = 60,
         .baseAttack    = 75,
         .baseDefense   = 90,
         .baseSpeed     = 40,
         .baseSpAttack  = 10,
-        .baseSpDefense = 35,
+        .baseSpDefense = 55,
         .type1 = TYPE_ICE,
         .type2 = TYPE_STEEL,
         .catchRate = 255,
@@ -24250,12 +24250,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_SANDSLASH_ALOLAN] =
     {
-        .baseHP        = 75,
-        .baseAttack    = 100,
-        .baseDefense   = 120,
+        .baseHP        = 85,
+        .baseAttack    = 120,
+        .baseDefense   = 130,
         .baseSpeed     = 65,
         .baseSpAttack  = 25,
-        .baseSpDefense = 65,
+        .baseSpDefense = 85,
         .type1 = TYPE_ICE,
         .type2 = TYPE_STEEL,
         .catchRate = 90,

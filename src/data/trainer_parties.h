@@ -3364,6 +3364,20 @@ static const struct TrainerMonItemCustomMoves sParty_Drake[] = {
     }
 };
 
+static u8 GetNumberOfBadges(void)
+{
+    u16 badgeFlag;
+    u8 count = 0;
+    
+    for (badgeFlag = FLAG_BADGE01_GET; badgeFlag < FLAG_BADGE01_GET + NUM_BADGES; badgeFlag++)
+    {
+        if (FlagGet(badgeFlag))
+            count++;
+    }
+    
+    return count;
+}
+
 static const struct TrainerMonItemCustomMoves sParty_Roxanne1[] = {
     {
     .iv = 100,
@@ -3386,6 +3400,29 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne1[] = {
     .heldItem = ITEM_ORAN_BERRY,
     .moves = {MOVE_BLOCK, MOVE_HARDEN, MOVE_TACKLE, MOVE_ROCK_TOMB}
     }
+};
+
+static const struct sParties_Brawly[] = {
+    sParty_Brawly1;
+    sParty_Brawly2;
+    sParty_Brawly3;
+    sParty_Brawly4;
+    sParty_Brawly5;
+    sParty_Brawly6;
+    sParty_Brawly7;
+    sParty_Brawly8;
+};
+
+static void SetBrawlyParty()
+{
+    u16 i = 0;
+    u8 badgeCount = GetNumberOfBadges();
+
+    sParty_Brawly = sParties_Brawly[badgeCount];
+};
+
+static const struct TrainerMonItemCustomMoves sParty_Brawly[] = {
+
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Brawly1[] = {
@@ -10551,6 +10588,141 @@ static const struct TrainerMonItemCustomMoves sParty_Brawly4[] = {
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Brawly5[] = {
+    {
+    .iv = 255,
+    .lvl = 46,
+    .species = SPECIES_HITMONLEE,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_MEGA_KICK, MOVE_FOCUS_PUNCH, MOVE_EARTHQUAKE, MOVE_BULK_UP}
+    },
+    {
+    .iv = 255,
+    .lvl = 46,
+    .species = SPECIES_HITMONCHAN,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_SKY_UPPERCUT, MOVE_PROTECT, MOVE_FIRE_PUNCH, MOVE_ICE_PUNCH}
+    },
+    {
+    .iv = 255,
+    .lvl = 48,
+    .species = SPECIES_MACHAMP,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_CROSS_CHOP, MOVE_ROCK_SLIDE, MOVE_FOCUS_PUNCH, MOVE_BULK_UP}
+    },
+    {
+    .iv = 255,
+    .lvl = 48,
+    .species = SPECIES_MEDICHAM,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_FOCUS_PUNCH, MOVE_LIGHT_SCREEN, MOVE_REFLECT, MOVE_PSYCHIC}
+    },
+    {
+    .iv = 255,
+    .lvl = 50,
+    .species = SPECIES_HITMONTOP,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_PURSUIT, MOVE_COUNTER, MOVE_PROTECT, MOVE_TRIPLE_KICK}
+    },
+    {
+    .iv = 255,
+    .lvl = 52,
+    .species = SPECIES_HARIYAMA,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_FAKE_OUT, MOVE_FOCUS_PUNCH, MOVE_BELLY_DRUM, MOVE_EARTHQUAKE}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_Brawly6[] = {
+    {
+    .iv = 255,
+    .lvl = 46,
+    .species = SPECIES_HITMONLEE,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_MEGA_KICK, MOVE_FOCUS_PUNCH, MOVE_EARTHQUAKE, MOVE_BULK_UP}
+    },
+    {
+    .iv = 255,
+    .lvl = 46,
+    .species = SPECIES_HITMONCHAN,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_SKY_UPPERCUT, MOVE_PROTECT, MOVE_FIRE_PUNCH, MOVE_ICE_PUNCH}
+    },
+    {
+    .iv = 255,
+    .lvl = 48,
+    .species = SPECIES_MACHAMP,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_CROSS_CHOP, MOVE_ROCK_SLIDE, MOVE_FOCUS_PUNCH, MOVE_BULK_UP}
+    },
+    {
+    .iv = 255,
+    .lvl = 48,
+    .species = SPECIES_MEDICHAM,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_FOCUS_PUNCH, MOVE_LIGHT_SCREEN, MOVE_REFLECT, MOVE_PSYCHIC}
+    },
+    {
+    .iv = 255,
+    .lvl = 50,
+    .species = SPECIES_HITMONTOP,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_PURSUIT, MOVE_COUNTER, MOVE_PROTECT, MOVE_TRIPLE_KICK}
+    },
+    {
+    .iv = 255,
+    .lvl = 52,
+    .species = SPECIES_HARIYAMA,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_FAKE_OUT, MOVE_FOCUS_PUNCH, MOVE_BELLY_DRUM, MOVE_EARTHQUAKE}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_Brawly7[] = {
+    {
+    .iv = 255,
+    .lvl = 46,
+    .species = SPECIES_HITMONLEE,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_MEGA_KICK, MOVE_FOCUS_PUNCH, MOVE_EARTHQUAKE, MOVE_BULK_UP}
+    },
+    {
+    .iv = 255,
+    .lvl = 46,
+    .species = SPECIES_HITMONCHAN,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_SKY_UPPERCUT, MOVE_PROTECT, MOVE_FIRE_PUNCH, MOVE_ICE_PUNCH}
+    },
+    {
+    .iv = 255,
+    .lvl = 48,
+    .species = SPECIES_MACHAMP,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_CROSS_CHOP, MOVE_ROCK_SLIDE, MOVE_FOCUS_PUNCH, MOVE_BULK_UP}
+    },
+    {
+    .iv = 255,
+    .lvl = 48,
+    .species = SPECIES_MEDICHAM,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_FOCUS_PUNCH, MOVE_LIGHT_SCREEN, MOVE_REFLECT, MOVE_PSYCHIC}
+    },
+    {
+    .iv = 255,
+    .lvl = 50,
+    .species = SPECIES_HITMONTOP,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_PURSUIT, MOVE_COUNTER, MOVE_PROTECT, MOVE_TRIPLE_KICK}
+    },
+    {
+    .iv = 255,
+    .lvl = 52,
+    .species = SPECIES_HARIYAMA,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_FAKE_OUT, MOVE_FOCUS_PUNCH, MOVE_BELLY_DRUM, MOVE_EARTHQUAKE}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_Brawly8[] = {
     {
     .iv = 255,
     .lvl = 46,
